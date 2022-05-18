@@ -38,3 +38,24 @@ h1 {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.image-container {
+	margin: 10px 30%;	
+}
+
+.image-container img {
+	width: 100%;
+	margin-top: 5px;
+}
+
+/* Media query: large smartphone */
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	.image-container {
+		margin: 10px 5%;
+	}
+}
