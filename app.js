@@ -8,7 +8,7 @@ let photosArray = [];
 
 // Unsplash API
 const COUNT = 10;
-const API_KEY = 'demo';
+const API_KEY = '2dN-4rLBw8tKW6XyaTHKPiGF9Oaw7G3nRVkbtEjtMD8';
 const API_URL = `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&count=${COUNT}`;
 
 // Display photos in the DOM fetched from the Unsplash API.
@@ -41,4 +41,5 @@ async function getPhotos() {
 	displayPhotos();
 }
 
+// On load.
 getPhotos();
