@@ -15,6 +15,6 @@ If the app isn't working correctly is because of this caveat, come back later so
 
 If you are building a production ready app using the Unsplash API, please check out the [Unsplash documentation](https://unsplash.com/documentation), create an account and apply for production yourself to have access to 5,000 requests per hour.
 
-Built with the help of [Zero To Mastery](https://zerotomastery.io/courses/javascript-projects/).
+## Special Thanks
 
-That's pretty much it, thanks for reading.
+Built with the help of [Zero To Mastery](https://zerotomastery.io/courses/javascript-projects/).
