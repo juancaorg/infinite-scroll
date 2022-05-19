@@ -12,7 +12,7 @@ let imagesLoaded = 0;
 let totalImages = 0;
 
 // Unsplash API set constants. If you do more than 50 requests in one hour, the app won't be able to fetch more photos. For that, apply in Unsplash.com for a production app.
-const COUNT = 10;
+const COUNT = 30;
 const API_KEY = "2dN-4rLBw8tKW6XyaTHKPiGF9Oaw7G3nRVkbtEjtMD8";
 const API_URL = `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&count=${COUNT}`;
 
